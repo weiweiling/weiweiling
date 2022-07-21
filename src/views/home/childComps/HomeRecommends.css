@@ -1,0 +1,13 @@
+.recommend{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #eee;
+}
+.recommend div img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+.recommend div a{
+    text-decoration: none;
+}
