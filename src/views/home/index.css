@@ -1,0 +1,33 @@
+.containers {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.wrappers {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+    overflow: hidden;
+    text-align: left;
+}
+
+.dd {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-100%) translateZ(0);
+    /*text-align: center;*/
+    color: #999;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+

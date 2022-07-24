@@ -1,0 +1,14 @@
+.tab-control{
+    display: flex;
+}
+
+.tab-control span{
+    font-size: 0.6rem;
+    line-height: 20px;
+    height: 20px;
+    flex: 1;
+    text-align: center;
+}
+.tab-control .activespan{
+    color: pink;
+}

@@ -7,6 +7,7 @@ export function getHomeMultidata() {
 }
 
 export function getHomeGoods(type, page) {
+
     return request({
         url: '/home/data',
         params: {
@@ -15,3 +16,4 @@ export function getHomeGoods(type, page) {
         }
     })
 }
+// el[list]list.push(...res.data.list)

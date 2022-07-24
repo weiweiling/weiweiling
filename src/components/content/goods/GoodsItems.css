@@ -1,0 +1,15 @@
+.goods-item{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.goods-item .each-item{
+    display: block;
+    width: 145px;
+    height: 200px;
+}
+.goods-item img{
+    width: 100px;
+    height: 150px;
+}
